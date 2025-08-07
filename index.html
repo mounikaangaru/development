@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DevOps Lifecycle</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f7f9;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 40px;
+    }
+    .stage {
+      background-color: #ffffff;
+      border: 2px solid #3498db;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #2c3e50;
+      font-weight: bold;
+      font-size: 1.1em;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      position: relative;
+    }
+    .arrow {
+      width: 40px;
+      height: 40px;
+      margin-top: 60px;
+    }
+    .stage:hover {
+      background-color: #3498db;
+      color: white;
+      cursor: pointer;
+      transform: scale(1.05);
+      transition: 0.3s ease;
+    }
+    .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+      gap: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>DevOps Lifecycle</h1>
+
+  <div class="container">
+    <div class="row">
+      <div class="stage">Plan</div>
+      <img class="arrow" src="https://img.icons8.com/ios-filled/50/000000/long-arrow-right.png" />
+      <div class="stage">Develop</div>
+      <img class="arrow" src="https://img.icons8.com/ios-filled/50/000000/long-arrow-right.png" />
+      <div class="stage">Build</div>
+      <img class="arrow" src="https://img.icons8.com/ios-filled/50/000000/long-arrow-right.png" />
+      <div class="stage">Test</div>
+    </div>
+
+    <div class="row">
+      <div class="stage">Release</div>
+      <img class="arrow" src="https://img.icons8.com/ios-filled/50/000000/long-arrow-right.png" />
+      <div class="stage">Deploy</div>
+      <img class="arrow" src="https://img.icons8.com/ios-filled/50/000000/long-arrow-right.png" />
+      <div class="stage">Operate</div>
+      <img class="arrow" src="https://img.icons8.com/ios-filled/50/000000/long-arrow-right.png" />
+      <div class="stage">Monitor</div>
+    </div>
+  </div>
+
+  <p style="margin-top: 40px; font-style: italic;">Hover on each stage for emphasis. Icons from <a href="https://icons8.com" target="_blank">Icons8</a>.</p>
+
+</body>
+</html>
